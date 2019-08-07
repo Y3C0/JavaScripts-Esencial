@@ -13,5 +13,6 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 ### Elementos basicos de JavaScript
 
 1.- Se crea carpeta 'JS' y se agrega archivo esterno app.js
+
 2.- Se enlasa a practica 1 archivo js/app.js
 
