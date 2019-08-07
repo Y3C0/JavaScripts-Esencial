@@ -29,3 +29,11 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 1.- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
 
 2.- Se crea comentario de Bloque en archivo practica-1.html - Estos comentarios pueden abarcar tantas lineas como se necesiten
+
+### Strict Mode
+
+1.- Se crea ejemplo usando variable no declarada
+
+2.- Se crea ejemplo usando palabra resercada
+
+3.- Se agrega modo stricto en la primera linea 'use strict'
