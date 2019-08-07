@@ -1,3 +1,3 @@
-alert("Hola Mundo desde un archivo externo")
+//alert("Hola Mundo desde un archivo externo")
 
-console.log("Hola consola")
+console.log("Hola Consola")
