@@ -16,3 +16,10 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 
 2.- Se enlasa a practica 1 archivo js/app.js
 
+### La Consola
+
+1.- Se crea mesaje desde la consola en archivo externo
+
+2.- Se crea variable "nombre" desde archivo practica-1.html
+
+3.- Se manda el resultado de la variable nombre a la consola 
