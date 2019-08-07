@@ -22,4 +22,10 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 
 2.- Se crea variable "nombre" desde archivo practica-1.html
 
-3.- Se manda el resultado de la variable nombre a la consola 
+3.- Se manda el resultado de la variable nombre a la consola
+
+### Escribiendo comentarios en JavaScript
+
+1.- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
+
+2.- Se crea comentario de Bloque en archivo practica-1.html - Estos comentarios pueden abarcar tantas lineas como se necesiten
