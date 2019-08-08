@@ -37,3 +37,10 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 2.- Se crea ejemplo usando palabra resercada
 
 3.- Se agrega modo stricto en la primera linea 'use strict'
+
+### Variables
+
+Las variables en los lenguajes de programación siguen una lógica similar a las variables utilizadas en otros ámbitos como las matemáticas. Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear "programas genéricos", es decir, programas que funcionan siempre igual independientemente de los valores concretos utilizados.
+
+Las variables en los lenguajes de programación siguen una lógica similar a las variables utilizadas en otros ámbitos como las matemáticas. Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear "programas genéricos", es decir, programas que funcionan siempre igual independientemente de los valores concretos utilizados.
+
