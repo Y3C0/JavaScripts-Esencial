@@ -4,19 +4,37 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 
 [Contacto](https://www.facebook.com/yeco13)
 
-## Practicas
+---
 
-### Primer JavaScript - Hola Mundo!!
+### Primer JavaScript - Hola Mundo!! 
 
-1. Se crea primer JavaScript Hola Mundo!! desde archivo html
+1. Se crea hola mundo desde archivo practicas/index.html
 
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hola Mundo!!</title>
+  </head>
+  <body>
+    <script>
+      alert('Hola Mundo');
+    </script>
+
+  </body>
+</html>
+
+```
 ### Elementos basicos de JavaScript
 
-1.- Se crea carpeta 'JS' y se agrega archivo esterno app.js
 
-2.- Se enlasa a practica 1 archivo js/app.js
+- Se crea carpeta js y archivo app.js en ella
+- Se enlaza archivo js/app.js a practica-1.html usando la etiqueta `<script>` dentro de etiqueta `<head>`
 
-### La Consola
+
+
+#### La Consola
 
 1.- Se crea mesaje desde la consola en archivo externo
 
