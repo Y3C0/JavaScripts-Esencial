@@ -8,7 +8,7 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 
 ### Primer JavaScript - Hola Mundo!!
 
-1. Se crea primer JavaScript Hola Mundo!!
+1. Se crea primer JavaScript Hola Mundo!! desde archivo html
 
 ### Elementos basicos de JavaScript
 
@@ -65,5 +65,3 @@ Si en el interior de una función, las variables se declaran mediante var se con
 ¿Qué sucede si dentro de una función se define una variable global con el mismo nombre que otra variable global que ya existe? En este otro caso, la variable global definida dentro de la función simplemente modifica el valor de la variable global definida anteriormente
 
 La recomendación general es definir como variables locales todas las variables que sean de uso exclusivo para realizar las tareas encargadas a cada función. Las variables globales se utilizan para compartir variables entre funciones de forma sencilla.
-
-
