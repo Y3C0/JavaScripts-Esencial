@@ -6,25 +6,22 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 
 ---
 
-### Primer JavaScript - Hola Mundo!! 
+### Primer JavaScript - Hola Mundo!!
 
 1. Se crea hola mundo desde archivo practicas/index.html
 
 ```html
-<!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hola Mundo!!</title>
+    <title>JavaScript Esencial</title>
   </head>
   <body>
     <script>
-      alert('Hola Mundo');
+      alert('Hola Mundo!!');
     </script>
-
   </body>
 </html>
-
 ```
 ### Elementos basicos de JavaScript
 
