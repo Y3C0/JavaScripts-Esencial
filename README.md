@@ -148,6 +148,13 @@ Las variables en los lenguajes de programación siguen una lógica similar a las
 
 Las variables en los lenguajes de programación siguen una lógica similar a las variables utilizadas en otros ámbitos como las matemáticas. Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear "programas genéricos", es decir, programas que funcionan siempre igual independientemente de los valores concretos utilizados.
 
+```JavaScript
+"use strict"
+
+var nombre = 'Sergio';
+```
+
+
 ### Ámbito de las variables
 
 El ámbito de una variable (llamado "scope" en inglés) es la zona del programa en la que se define la variable. JavaScript define dos ámbitos para las variables: global y local.
@@ -156,11 +163,39 @@ El ámbito de una variable (llamado "scope" en inglés) es la zona del programa 
 
 Solamente está definida dentro de la función. Cualquier instrucción que se encuentre dentro de la función puede hacer uso de esa variable, pero todas las instrucciones que se encuentren en otras funciones o fuera de cualquier función no tendrán definida la variable
 
+```JavaScript
+"use strict"
+
+var nombre = 'Sergio';
+
+console.log(nombre);
+
+function saludo (){
+  var nombre = 'Bruno';
+    console.log(nombre);
+}
+
+saludo ();
+```
+
 ### Variables Globales
 
 Está definida en cualquier punto del programa (incluso dentro de cualquier función).
 
 Si una variable se declara fuera de cualquier función, automáticamente se transforma en variable global independientemente de si se define utilizando la palabra reservada var o no. Sin embargo, las variables definidas dentro de una función pueden ser globales o locales.
+
+```JavaScript
+"use strict"
+
+var nombre = 'Sergio';
+
+function saludo (){
+
+}
+
+saludo ();
+```
+
 
 Si en el interior de una función, las variables se declaran mediante var se consideran locales y las variables que no se han declarado mediante var, se transforman automáticamente en variables globales.
 
