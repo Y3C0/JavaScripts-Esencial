@@ -60,7 +60,7 @@ alert('Hola Mundo!! desde archivo externo');
 console.log('Hola Mundo!! desde la consola');
 ```
 ###### resultado:
-![Hola Mundo, desde consola](../img/consola.png)
+![Hola Mundo, desde consola](/img/consola.png)
 
 2.- Se crea variable "nombre" desde archivo practica-1.html
 ```html
@@ -83,7 +83,7 @@ console.log('Hola Mundo!! desde la consola');
 </html>
 ```
 3.- Se manda el resultado de la variable nombre a la consola
-![Resultado consola](../img/consola1.png)
+![Resultado consola](/img/consola1.png)
 ### Escribiendo comentarios en JavaScript
 
 1.- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
