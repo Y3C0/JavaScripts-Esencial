@@ -25,20 +25,65 @@ Se crea este repositoria para subir las practicas del curso JavaScript Esencial
 ```
 ### Elementos basicos de JavaScript
 
+##### JavaScript desde archivo externo
 
 - Se crea carpeta js y archivo app.js en ella
 - Se enlaza archivo js/app.js a practica-1.html usando la etiqueta `<script>` dentro de etiqueta `<head>`
 
-
+**Archivo: practica-1.html**
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Esencial</title>
+    <script src="../js/app.js"></script>
+  </head>
+  <body>
+    <script>
+      alert('Hola Mundo!!');
+    </script>
+  </body>
+</html>
+```
+**Archivo: app.js**
+```JavaScript
+alert('Hola Mundo!! desde archivo externo');
+```
 
 #### La Consola
 
 1.- Se crea mesaje desde la consola en archivo externo
+```JavaScript
+alert('Hola Mundo!! desde archivo externo');
+
+console.log('Hola Mundo!! desde la consola');
+```
+###### resultado:
+![Hola Mundo, desde consola](/img/consola.png)
 
 2.- Se crea variable "nombre" desde archivo practica-1.html
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Esencial</title>
+    <script src="../js/app.js"></script>
+  </head>
+  <body>
+    <script>
+      alert('Hola Mundo!!');
 
+      var nombre = 'Sergio';
+
+      console.log('El nombre es: ',nombre);
+    </script>
+  </body>
+</html>
+```
 3.- Se manda el resultado de la variable nombre a la consola
-
+![Resultado consola](/img/consola1.png)
 ### Escribiendo comentarios en JavaScript
 
 1.- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
