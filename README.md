@@ -86,9 +86,44 @@ console.log('Hola Mundo!! desde la consola');
 ![Resultado consola](/img/consola1.png)
 ### Escribiendo comentarios en JavaScript
 
-1.- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
+##### Comentarios de 1 sola linea
+1- Se crea comentario de Linea en archivo js/app.js - estos comentarios abarcan 1 sola linea
 
+```JavaScript
+//alert('Hola Mundo!! desde archivo externo');
+
+console.log('Hola Mundo!! desde la consola');
+```
+##### Comentarios de bloque
 2.- Se crea comentario de Bloque en archivo practica-1.html - Estos comentarios pueden abarcar tantas lineas como se necesiten
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Esencial</title>
+    <script src="../js/app.js"></script>
+  </head>
+  <body>
+    <script>
+      /*alert('Hola Mundo!!');
+
+      var nombre = 'Sergio';
+
+      console.log('El nombre es: ',nombre);*/
+    </script>
+  </body>
+</html>
+```
+Tambien podemos usar los comentarios para dejar alguna referencias de nuestro trabajo *ejemplo:*
+
+```JavaScript
+//alert('Hola Mundo!! desde archivo externo');
+
+//Este es un mensaje de la consola
+console.log('Hola Mundo!! desde la consola');
+```
 
 ### Strict Mode
 
