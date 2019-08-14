@@ -5,8 +5,11 @@ var nombre = 'Sergio';
 console.log(nombre);
 
 function saludo (){
-  var nombre = 'Bruno';
+  let nombre = 'Bruno';
     console.log(nombre);
+
+  let edad = 39;
+    console.log(edad);
 }
 
 saludo ();

@@ -203,4 +203,32 @@ Si en el interior de una función, las variables se declaran mediante var se con
 
 ¿Qué sucede si dentro de una función se define una variable global con el mismo nombre que otra variable global que ya existe? En este otro caso, la variable global definida dentro de la función simplemente modifica el valor de la variable global definida anteriormente
 
-La recomendación general es definir como variables locales todas las variables que sean de uso exclusivo para realizar las tareas encargadas a cada función. Las variables globales se utilizan para compartir variables entre funciones de forma sencilla.
+La recomendación general es definir como variables locales todas las variables que sean de uso exclusivo para realizar las tareas encargadas a cada función. Las variables globales se utilizan para compartir variables
+
+---
+
+### Contenedor let
+
+La instrucción let declara una variable de alcance local con ámbito de bloque(block scope), la cual, opcionalmente, puede ser inicializada con algún valor.
+
+let permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando. Lo anterior diferencia  let de la palabra reservada var , la cual define una variable global o local en una función sin importar el ámbito del bloque.
+
+```JavaScript
+"use strict"
+
+var nombre = 'Sergio';
+
+console.log(nombre);
+
+function saludo (){
+  let nombre = 'Bruno';
+    console.log(nombre);
+
+  let edad = 39;
+    console.log(edad);
+}
+
+saludo ();
+```
+
+>nota: Utiliza var para variables globales y let para datos locales o dentro de una funsion
