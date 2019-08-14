@@ -232,3 +232,15 @@ saludo ();
 ```
 
 >nota: Utiliza var para variables globales y let para datos locales o dentro de una funsion
+
+### Contenedores const
+
+Las variables constantes presentan un ámbito de bloque (block scope) tal y como lo hacen las variables definidas usando la instrucción let, con la particularidad de que el valor de una constante no puede cambiarse a través de la reasignación. Las constantes no se pueden redeclarar.
+
+```JavaScript
+"use strict"
+
+const pi = 3.1416;
+
+//pi = 15;
+```
