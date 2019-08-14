@@ -129,9 +129,18 @@ console.log('Hola Mundo!! desde la consola');
 
 1.- Se crea ejemplo usando variable no declarada
 
-2.- Se crea ejemplo usando palabra resercada
+2.- Se crea ejemplo usando palabra reservada
 
-3.- Se agrega modo stricto en la primera linea 'use strict'
+3.- Se agrega modo estricto en la primera linea 'use strict'
+
+```JavaScript
+"use strict"
+
+//alert('Hola Mundo!! desde archivo externo');
+
+//Este es un mensaje de la consola
+console.log('Hola Mundo!! desde la consola');
+```
 
 ## Variables
 
