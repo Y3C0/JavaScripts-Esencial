@@ -321,3 +321,20 @@ var edad = 34;
 
 var edadtxt = String(edad);
 ```
+### Datos Booleanos
+
+Los tipos de datos booleanos nos ofrecen sólo dos tipos de datos: «true» o «false» (verdadero o falso).
+
+```JavaScript
+"use strict"
+
+var activo = false;
+```
+
+Podemos hacer comprobaciones del estado (verdadero o falso) de una variable booleana, de esta manera:
+
+```JavaScript
+var estado = Boolean( 10 > 9); //true
+
+var estado = Boolean( 10 < 9); //false
+```
