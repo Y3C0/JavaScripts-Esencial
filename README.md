@@ -290,3 +290,34 @@ parseInt()
 
 parseFloat()
 ```
+### Datos de Texto o String
+
+Las cadenas de texto o strings son uno de los tipos de datos que más utilizaremos en nuestros programas JavaScript; pero hay que utilizarlos bien para que no nos den problemas.
+
+Lo primero que haremos para declarar una cadena de texto, al igual que anteriormente con los números será utilizar la palabra reservada var+nombre-variable.
+
+A continuación asignaremos el texto, pero ¡ojo!, siempre entre comillas, «dobles» o ‘simples’.
+
+Muy Importante : Si comenzamos con una comilla doble, deberemos cerrar con una comilla doble; lo mismo ocurrirá si lo hacemos con comillas simples.
+
+```JavaScript
+"use strict"
+
+var bebida = "agua";
+
+var comida = "ceviche"
+```
+Podemos, también, anidar comillas doble y simples de esta manera:
+
+```JavaScript
+var instrucción = "El platillo se llama 'ceviche'"
+```
+¿Qué sucede si quiero trabajar como texto un número que tengo almacenado en una variable numérica?
+
+Podemos crear otra variable y pasarla de número a texto, utilizaremos la función String() de la siguiente forma:
+
+```JavaScript
+var edad = 34;
+
+var edadtxt = String(edad);
+```
