@@ -244,3 +244,49 @@ const pi = 3.1416;
 
 //pi = 15;
 ```
+## Tipos de datos específicos de JavaScript
+
+### Datos Numericos
+
+En JavaScript podemos trabajar con diferentes tipos de datos. En este caso, trabajaremos con tipos de datos «numéricos».
+
+Los valores numéricos no deberemos ponerlos entre comillas, y podrán ser «enteros» o «flotantes» (con decimales).
+
+Podremos expresar números positivos (+34), o número negativos (-15).
+
+```JavaScript
+"use strict"
+
+var edad = 39;
+```
+
+Debemos tener cuidado cuando asignamos datos, ya que si queremos asignar un dato numérico pero lo asignamos con «comillas», este no será numérico, sino que será un «string», y por tanto, no podremos realizar operaciones numéricas con él; si lo intentamos lo que haría el navegador sería añadir a nuestra cadena de texto el nuevo dato que también sería texto; OJO con esto.
+
+```JavaScript
+"use strict"
+
+var cantidad = "100";
+```
+![String](/img/string.png)
+
+Para convertir una «cadena de texto» en un «dato numérico», utilizaremos le función «number», la cual nos cambiará el tipo de dato de uno a otro.
+
+```JavaScript
+"use strict"
+
+var edad = 39;
+
+var cantidad = '100';
+
+var nuevaCantidad = number (cantidad);
+```
+
+![Number](/img/Number.png)
+
+Tenemos tambien dos funciones que nos permiten convertir datos a «enteros» y a «flotantes», las cuales son:
+
+```JavaScript
+parseInt()
+
+parseFloat()
+```
