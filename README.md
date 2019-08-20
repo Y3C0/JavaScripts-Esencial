@@ -338,3 +338,15 @@ var estado = Boolean( 10 > 9); //true
 
 var estado = Boolean( 10 < 9); //false
 ```
+### Trabajando con Fechas
+
+Podemos crear un objeto de fecha con `var fecha = new Date()`. Sin parámetros, fecha será igual al momento en que se crea el objeto (o sea, el día presente y el tiempo actual); también es posible crear objetos que representen fechas específicas especificando ciertos parámetros:
+
+* Como tiempo UNIX en milisegundos, como en var fecha = new Date(1234567890000);
+* Un string completo que represente el tiempo, por ejemplo: var fecha = new Date("December 17, 1995 03:24:00");
+* Indicando el año, mes, día (y de forma opcional, horas, minutos, segundos y milisegundos), por ejemplo: var fecha = new Date(2010, 06, 12);. Ojo, que Enero se cuenta como mes 0, y de ahí en adelante (o sea, 06 corresponde a Julio)
+* El valor de un objeto de fecha siempre está representado en tiempo UNIX como milisegundos, es decir, como un número sencillo, lo que facilita bastante la posibilidad de calcular diferencias de fechas:
+
+```JavaScript
+
+```    
