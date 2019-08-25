@@ -1,5 +1,10 @@
 "use strict"
 
-var simbolo1 = Symbol();
+//*** Operadores Aritmeticos
 
-var simbolo2 = Symbol();
+var datoA = 50
+var datoB = 10
+
+// Suma +
+
+var suma = datoA + datoB;

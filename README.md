@@ -420,3 +420,5 @@ Como se describió previamente, un JSON es una cadena cuyo formato recuerda al d
   ]
 }
 ```
+
+### Operadores Aritmeticos
